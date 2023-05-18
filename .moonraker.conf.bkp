@@ -44,9 +44,9 @@ api_qos = 0
 [update_manager]
 enable_auto_refresh = True
 
-[update_manager client fluidd]
+[update_manager fluidd]
 type = web
-repo = cadriel/fluidd
+repo = fluidd-core/fluidd
 path = ~/fluidd
 
 [update_manager KlipperScreen]
